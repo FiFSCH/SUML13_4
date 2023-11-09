@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #435585;
 }
 
 .App-logo {
@@ -26,6 +27,29 @@
 
 .App-link {
   color: #61dafb;
+}
+
+
+.SliderValues {
+  display: flex;
+  justify-content: space-between; /* Distribute the content evenly across the container */
+  align-items: center; /* Center the content vertically in the container */
+}
+
+
+.leftSliderValue {
+  margin-left: 5px;
+  flex: 0 0 auto; /* Prevent the first <p> from growing */
+}
+
+.middleSliderValue {
+  text-align: center;
+  flex: 1; /* Allow the second <p> to take up remaining space */
+}
+
+.rightSliderValue {
+  margin-right: 5px;
+  flex: 0 0 auto; /* Prevent the third <p> from growing */
 }
 
 @keyframes App-logo-spin {
